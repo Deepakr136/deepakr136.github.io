@@ -1,1 +1,703 @@
-<!DOCTYPE html> <html lang="en"> <head> <meta charset="UTF-8" /> <meta name="viewport" content="width=device-width, initial-scale=1.0" /> <title>Deepak Raj Rajendran — Consumer Insights & Customer Experience Specialist</title> <meta name="description" content="Consumer Insights, Analytics & Business Intelligence Specialist with 5+ years at Amazon and Accenture. Currently based in Germany; open to relocation across DACH and India." /> <meta name="author" content="Deepak Raj Rajendran" /> <meta property="og:title" content="Deepak Raj Rajendran — Consumer Insights Specialist" /> <meta property="og:description" content="5+ years driving customer-centric decisions at Amazon, Accenture, and beyond." /> <meta property="og:type" content="website" /> <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Crect width='100' height='100' rx='20' fill='%231A5276'/%3E%3Ctext x='50' y='62' font-family='Arial' font-size='44' font-weight='700' fill='white' text-anchor='middle'%3ED%3C/text%3E%3C/svg%3E" /> <style> :root { --navy: #1A5276; --navy-dark: #143F58; --accent: #C39B3D; --bg: #ffffff; --bg-soft: #F7F9FB; --text: #1F2933; --text-muted: #5C6975; --border: #E4E9ED; } * { box-sizing: border-box; margin: 0; padding: 0; } html { scroll-behavior: smooth; } body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Helvetica Neue", Arial, sans-serif; font-size: 16px; line-height: 1.65; color: var(--text); background: var(--bg); -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; } a { color: var(--navy); text-decoration: none; transition: color 0.2s ease; } a:hover { color: var(--accent); } /* ===== NAV ===== */ nav { position: sticky; top: 0; z-index: 100; background: rgba(255,255,255,0.95); backdrop-filter: blur(8px); border-bottom: 1px solid var(--border); } nav .nav-inner { max-width: 1100px; margin: 0 auto; padding: 16px 24px; display: flex; justify-content: space-between; align-items: center; } nav .brand { font-weight: 700; color: var(--navy); font-size: 18px; } nav ul { list-style: none; display: flex; gap: 28px; } nav ul li a { font-size: 14px; font-weight: 500; color: var(--text-muted); } nav ul li a:hover { color: var(--navy); } @media (max-width: 720px) { nav ul { display: none; } } /* ===== HERO ===== */ .hero { padding: 80px 24px; background: linear-gradient(135deg, #F0F4F7 0%, #FFFFFF 100%); } .hero-inner { max-width: 1100px; margin: 0 auto; display: grid; grid-template-columns: 1.1fr 0.9fr; gap: 56px; align-items: center; } @media (max-width: 860px) { .hero-inner { grid-template-columns: 1fr; gap: 32px; text-align: center; } .hero-image { order: -1; max-width: 280px; margin: 0 auto; } .hero .actions { justify-content: center; } } .hero h1 { font-size: clamp(36px, 5.5vw, 52px); font-weight: 800; color: var(--navy-dark); letter-spacing: -0.02em; line-height: 1.1; margin-bottom: 16px; } .hero .tagline { font-size: clamp(18px, 2.4vw, 22px); color: var(--navy); font-style: italic; margin-bottom: 24px; } .hero .summary { font-size: 17px; color: var(--text-muted); margin-bottom: 32px; } .hero .actions { display: flex; gap: 12px; flex-wrap: wrap; } .hero-image { position: relative; width: 100%; max-width: 360px; justify-self: center; } .hero-image img { width: 100%; aspect-ratio: 1 / 1; object-fit: cover; border-radius: 50%; border: 6px solid white; box-shadow: 0 18px 48px rgba(26, 82, 118, 0.18); } .hero-image::before { content: ''; position: absolute; inset: -8px; border-radius: 50%; border: 2px solid var(--navy); opacity: 0.15; } .btn { display: inline-flex; align-items: center; gap: 8px; padding: 12px 24px; border-radius: 8px; font-size: 15px; font-weight: 600; border: 1.5px solid transparent; cursor: pointer; transition: all 0.2s ease; } .btn-primary { background: var(--navy); color: white; } .btn-primary:hover { background: var(--navy-dark); color: white; transform: translateY(-1px); } .btn-secondary { background: white; color: var(--navy); border-color: var(--navy); } .btn-secondary:hover { background: var(--navy); color: white; } /* ===== SECTIONS ===== */ section { padding: 80px 24px; } section.alt { background: var(--bg-soft); } .container { max-width: 1100px; margin: 0 auto; } h2 { font-size: clamp(26px, 3.5vw, 34px); color: var(--navy-dark); font-weight: 700; margin-bottom: 12px; letter-spacing: -0.01em; } h2::after { content: ''; display: block; width: 48px; height: 3px; background: var(--navy); margin-top: 12px; margin-bottom: 32px; border-radius: 2px; } h3 { font-size: 19px; font-weight: 700; margin-bottom: 6px; color: var(--text); } /* ===== ACHIEVEMENTS ===== */ .achievements { display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 20px; margin-top: 24px; } .achievement-card { background: white; border: 1px solid var(--border); border-radius: 12px; padding: 28px 24px; text-align: center; transition: all 0.25s ease; } .achievement-card:hover { transform: translateY(-4px); box-shadow: 0 12px 28px rgba(26, 82, 118, 0.08); border-color: var(--navy); } .achievement-card .metric { font-size: 42px; font-weight: 800; color: var(--navy); letter-spacing: -0.02em; margin-bottom: 6px; } .achievement-card .label { font-weight: 600; color: var(--text); margin-bottom: 6px; } .achievement-card .desc { font-size: 14px; color: var(--text-muted); line-height: 1.5; } /* ===== TIMELINE / EXPERIENCE ===== */ .timeline { position: relative; } .timeline::before { content: ''; position: absolute; left: 8px; top: 6px; bottom: 6px; width: 2px; background: var(--border); } .experience-item { position: relative; padding-left: 36px; padding-bottom: 32px; } .experience-item::before { content: ''; position: absolute; left: 0; top: 6px; width: 18px; height: 18px; background: var(--navy); border: 3px solid white; border-radius: 50%; box-shadow: 0 0 0 2px var(--navy); } .experience-header { display: flex; justify-content: space-between; align-items: flex-start; flex-wrap: wrap; gap: 8px; margin-bottom: 4px; } .experience-role { font-weight: 700; font-size: 18px; color: var(--text); } .experience-dates { color: var(--text-muted); font-size: 14px; font-style: italic; } .experience-company { color: var(--navy); font-weight: 600; font-size: 15px; margin-bottom: 12px; } .experience-bullets { padding-left: 18px; color: var(--text); } .experience-bullets li { margin-bottom: 6px; line-height: 1.6; } /* ===== PROJECTS ===== */ .projects { display: grid; grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)); gap: 24px; margin-top: 16px; } .project-card { background: white; border: 1px solid var(--border); border-radius: 12px; padding: 28px; transition: all 0.25s ease; } .project-card:hover { transform: translateY(-3px); box-shadow: 0 14px 32px rgba(26, 82, 118, 0.08); } .project-card h3 { color: var(--navy-dark); margin-bottom: 4px; } .project-meta { color: var(--text-muted); font-size: 13px; font-style: italic; margin-bottom: 16px; } .project-card ul { padding-left: 18px; } .project-card li { margin-bottom: 8px; line-height: 1.6; } /* ===== Recognition badge ===== */ .recognition-badge { display: flex; align-items: center; gap: 14px; margin-top: 18px; padding: 14px 18px; background: linear-gradient(135deg, #FFF8E7 0%, #F9EFD3 100%); border: 1px solid #D4B663; border-left: 4px solid #C39B3D; border-radius: 10px; } .recognition-badge .badge-icon { flex-shrink: 0; width: 36px; height: 36px; background: linear-gradient(135deg, #D4B663 0%, #C39B3D 100%); border-radius: 50%; display: flex; align-items: center; justify-content: center; color: white; box-shadow: 0 4px 10px rgba(195, 155, 61, 0.3); } .recognition-badge .badge-text { flex: 1; display: flex; flex-direction: column; gap: 2px; } .recognition-badge .badge-text strong { color: var(--navy-dark); font-size: 14px; font-weight: 700; } .recognition-badge .badge-text span { color: var(--text-muted); font-size: 12px; } .recognition-badge a { font-size: 13px; font-weight: 600; color: var(--navy); white-space: nowrap; text-decoration: none; } .recognition-badge a:hover { color: var(--accent); text-decoration: underline; } /* ===== SKILLS ===== */ .skills-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 18px; margin-top: 16px; } .skill-block { background: white; border: 1px solid var(--border); border-radius: 10px; padding: 22px 24px; } .skill-block h4 { font-size: 14px; font-weight: 700; color: var(--navy); text-transform: uppercase; letter-spacing: 0.06em; margin-bottom: 10px; } .skill-tags { display: flex; flex-wrap: wrap; gap: 7px; } .skill-tag { background: var(--bg-soft); border: 1px solid var(--border); color: var(--text); font-size: 13px; padding: 5px 12px; border-radius: 100px; } /* ===== EDUCATION ===== */ .education-list { display: flex; flex-direction: column; gap: 16px; } .edu-item { display: flex; justify-content: space-between; align-items: flex-start; flex-wrap: wrap; gap: 12px; padding: 20px 24px; background: white; border: 1px solid var(--border); border-radius: 10px; } .edu-item .degree { font-weight: 700; color: var(--text); font-size: 16px; margin-bottom: 4px; } .edu-item .school { color: var(--text-muted); font-size: 14px; } .edu-item .dates { color: var(--text-muted); font-size: 14px; font-style: italic; } /* ===== CERTS / LANGS ===== */ .two-col { display: grid; grid-template-columns: 1fr 1fr; gap: 32px; } @media (max-width: 720px) { .two-col { grid-template-columns: 1fr; } } .list-clean { list-style: none; } .list-clean li { padding: 8px 0; border-bottom: 1px solid var(--border); color: var(--text); } .list-clean li:last-child { border-bottom: none; } /* ===== CONTACT ===== */ .contact { background: var(--navy-dark); color: white; padding: 80px 24px; text-align: center; } .contact h2 { color: white; } .contact h2::after { background: var(--accent); } .contact .subtitle { color: rgba(255,255,255,0.85); font-size: 18px; max-width: 560px; margin: 0 auto 32px; } .contact-links { display: flex; flex-wrap: wrap; justify-content: center; gap: 14px; margin-bottom: 24px; } .contact-link { display: inline-flex; align-items: center; gap: 8px; padding: 12px 20px; background: rgba(255,255,255,0.1); border: 1px solid rgba(255,255,255,0.2); border-radius: 8px; color: white; font-size: 14px; font-weight: 500; transition: all 0.2s ease; } .contact-link:hover { background: rgba(255,255,255,0.2); color: white; } .contact-link svg { flex-shrink: 0; } footer { background: var(--navy-dark); color: rgba(255,255,255,0.6); text-align: center; font-size: 13px; padding: 24px; border-top: 1px solid rgba(255,255,255,0.1); } /* ===== ANIMATIONS ===== */ .fade-in { opacity: 0; transform: translateY(16px); transition: opacity 0.6s ease, transform 0.6s ease; } .fade-in.visible { opacity: 1; transform: translateY(0); } @media (max-width: 540px) { .hero { padding: 60px 20px 50px; } section { padding: 56px 20px; } h2::after { margin-bottom: 24px; } } </style> </head> <body> <!-- ===== NAVIGATION ===== --> <nav> <div class="nav-inner"> <span class="brand">Deepak Raj Rajendran</span> <ul> <li><a href="#about-me">About</a></li> <li><a href="#experience">Experience</a></li> <li><a href="#projects">Projects</a></li> <li><a href="#skills">Skills</a></li> <li><a href="#contact">Contact</a></li> </ul> </div> </nav> <!-- ===== HERO ===== --> <section class="hero"> <div class="hero-inner fade-in"> <div> <h1>Deepak Raj Rajendran</h1> <p class="tagline">Consumer Insights, Analytics &amp; Business Intelligence Specialist</p> <p class="summary"> Customer-experience specialist with 5+ years driving go-to-market decisions at Amazon and Accenture across LATAM, Europe, and Asia. I turn customer signals into action — improving delivery performance, conversion, and ad revenue at scale. </p> <div class="actions"> <a href="#contact" class="btn btn-primary">Get in Touch</a> <a href="Deepak_Raj_Rajendran_CV_Germany.pdf" download class="btn btn-secondary">Download CV</a> </div> </div> <div class="hero-image"> <img src="headshot.jpg" alt="Deepak Raj Rajendran" /> </div> </div> </section> <!-- ===== ABOUT ME ===== --> <section id="about-me" class="alt"> <div class="container fade-in" style="display: grid; grid-template-columns: 0.85fr 1.15fr; gap: 48px; align-items: center;"> <div class="about-photo" style="position: relative;"> <img src="portrait.jpg" alt="Deepak Raj Rajendran" style="width: 100%; max-width: 380px; border-radius: 14px; box-shadow: 0 20px 50px rgba(0,0,0,0.12); display: block;" /> </div> <div> <h2>About Me</h2> <p style="font-size: 17px; color: var(--text); margin-bottom: 18px;"> Originally from Bangalore, currently in Helmstedt, Germany — and somewhere between MBA classrooms in Berlin and warehouse floors in Latin America, I figured out that what I do best is take messy customer signals and turn them into decisions teams actually act on. </p> <p style="font-size: 17px; color: var(--text); margin-bottom: 18px;"> Five years at Amazon and Accenture taught me how to translate VoC, NPS, and behavioural data into pricing, delivery, and product changes that move real numbers. An MBA from IU International &amp; LSBU sharpened the commercial lens. A&nbsp;part-time gig running shifts at a German hospitality group keeps me close to the customer in a way no dashboard ever could. </p> <p style="font-size: 17px; color: var(--text);"> Open to insights, customer experience, and BI roles across India and the DACH region — wherever a team needs someone who treats the customer's voice like the only voice that matters. </p> </div> </div> </section> <style> @media (max-width: 860px) { #about-me .container { grid-template-columns: 1fr !important; text-align: center; } #about-me .about-photo img { margin: 0 auto; } } </style> <!-- ===== ABOUT / KEY ACHIEVEMENTS ===== --> <section id="about"> <div class="container fade-in"> <h2>Impact Snapshot</h2> <p style="color: var(--text-muted); max-width: 720px; margin-bottom: 0;"> Three numbers I'm proud of, drawn from real programs at Amazon — built with cross-functional teams across product, marketing, logistics, and ops. </p> <div class="achievements"> <div class="achievement-card"> <div class="metric">+8%</div> <div class="label">Ad Revenue Growth</div> <div class="desc">Facebook ad revenue lifted by translating customer-journey insights into media-mix recommendations.</div> </div> <div class="achievement-card"> <div class="metric">+20%</div> <div class="label">On-Time Delivery</div> <div class="desc">Cross-market benchmarking study that drove operational priorities across Latin American teams.</div> </div> <div class="achievement-card"> <div class="metric">+15%</div> <div class="label">Transaction Efficiency</div> <div class="desc">Identified checkout friction on low-end devices and partnered with product to optimise UX.</div> </div> </div> </div> </section> <!-- ===== EXPERIENCE ===== --> <section id="experience" class="alt"> <div class="container fade-in"> <h2>Experience</h2> <div class="timeline"> <div class="experience-item"> <div class="experience-header"> <span class="experience-role">Team / Shift Manager</span> <span class="experience-dates">06/2025 — Present</span> </div> <div class="experience-company">Hockelmann Systemgastronomiebetriebe GmbH · Berlin, Germany</div> <ul class="experience-bullets"> <li>Lead shift operations during peak hours, maintaining compliance with brand standards, food-safety regulations, and service-quality expectations.</li> <li>Resolve customer escalations on the floor in real time, sustaining positive guest experience.</li> <li>Track service-speed, order-accuracy, and staff-productivity KPIs in Qualtrics XM to identify operational bottlenecks.</li> </ul> </div> <div class="experience-item"> <div class="experience-header"> <span class="experience-role">Senior Capabilities Associate — Customer Experience &amp; Business Trends</span> <span class="experience-dates">05/2021 — 03/2024</span> </div> <div class="experience-company">Amazon · Bangalore, India</div> <ul class="experience-bullets"> <li>Led cross-regional customer and shopper journey initiatives across Latin America, France, and Japan.</li> <li>Owned Voice-of-Customer (VoC), CSAT, and NPS frameworks used in monthly leadership reviews across three regions.</li> <li>Translated customer feedback and behavioural data into pricing, delivery, and payment recommendations adopted by product, marketing, and logistics teams.</li> <li>Delivered insights that improved delivery performance and transaction efficiency by up to 20%.</li> <li><strong>Recognised with Amazon's LP Champion Award (Q1 2024)</strong> for embodying <em>Bias for Action</em> and <em>Deliver Results</em> on the APAY Latency study.</li> </ul> </div> <div class="experience-item"> <div class="experience-header"> <span class="experience-role">Process Associate — Customer Experience &amp; Advertising Insights</span> <span class="experience-dates">09/2019 — 05/2021</span> </div> <div class="experience-company">Accenture · Bangalore, India</div> <ul class="experience-bullets"> <li>Delivered customer and campaign performance insights for a global technology client.</li> <li>Conducted audience segmentation, persona analysis, and channel-performance evaluation to inform go-to-market strategy.</li> <li>Built automated SQL and Microsoft Power BI dashboards used by global marketing and analytics teams.</li> </ul> </div> </div> </div> </section> <!-- ===== PROJECTS ===== --> <section id="projects"> <div class="container fade-in"> <h2>Selected Projects</h2> <div class="projects"> <div class="project-card"> <h3>Amazon Pay — Checkout Optimisation (APAY Latency Study)</h3> <div class="project-meta">Amazon · 2024 · Cross-functional with Product &amp; Tech</div> <ul> <li>Identified checkout friction on low-end devices through customer-behaviour analysis.</li> <li>Audited <strong>759 transactions in 3 days</strong> to meet stakeholder deadlines under tight timelines and data constraints.</li> <li>Partnered with product and tech teams to optimise UX and performance.</li> <li><strong>Result:</strong> 15% improvement in transaction efficiency, increased checkout conversion, lifted overall customer satisfaction.</li> </ul> <div class="recognition-badge"> <div class="badge-icon"> <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M12 1l2.39 4.84L20 7l-4 3.9.94 5.5L12 13.77 7.06 16.4 8 10.9 4 7l5.61-1.16L12 1zm0 4.83L10.97 7.9l-2.3.48 1.66 1.62-.39 2.27L12 11.2l2.06 1.07-.39-2.27 1.66-1.62-2.3-.48L12 5.83zM3 19h18v2H3z"/></svg> </div> <div class="badge-text"> <strong>Amazon LP Champion Award · Q1 2024</strong> <span>For 'Bias for Action' &amp; 'Deliver Results'</span> </div> <a href="LP_Champion_Certificate.pdf" target="_blank" rel="noopener">View →</a> </div> </div> <div class="project-card"> <h3>Cross-Market Delivery Programme</h3> <div class="project-meta">Mexico · 2022 · LATAM Operations</div> <ul> <li>Led delivery-performance benchmarking across Latin American markets to identify gaps impacting customer satisfaction.</li> <li>Translated insights into actionable operational priorities for local teams.</li> <li><strong>Result:</strong> ~20% improvement in on-time delivery within one quarter.</li> </ul> </div> </div> </div> </section> <!-- ===== SKILLS ===== --> <section id="skills" class="alt"> <div class="container fade-in"> <h2>Skills &amp; Tools</h2> <div class="skills-grid"> <div class="skill-block"> <h4>Analytics &amp; Reporting</h4> <div class="skill-tags"> <span class="skill-tag">SQL</span> <span class="skill-tag">Power BI</span> <span class="skill-tag">Amazon QuickSight</span> <span class="skill-tag">R</span> <span class="skill-tag">Excel</span> </div> </div> <div class="skill-block"> <h4>Customer Insights</h4> <div class="skill-tags"> <span class="skill-tag">Voice of Customer</span> <span class="skill-tag">NPS</span> <span class="skill-tag">CSAT</span> <span class="skill-tag">CES</span> <span class="skill-tag">A/B Testing</span> <span class="skill-tag">Survey Design</span> <span class="skill-tag">Customer Journey Mapping</span> </div> </div> <div class="skill-block"> <h4>CRM &amp; CX Tools</h4> <div class="skill-tags"> <span class="skill-tag">Salesforce</span> <span class="skill-tag">Qualtrics XM</span> </div> </div> <div class="skill-block"> <h4>Process &amp; Leadership</h4> <div class="skill-tags"> <span class="skill-tag">Lean Six Sigma</span> <span class="skill-tag">Stakeholder Management</span> <span class="skill-tag">Cross-functional Leadership</span> <span class="skill-tag">Team Coaching</span> <span class="skill-tag">Storytelling</span> </div> </div> </div> </div> </section> <!-- ===== EDUCATION ===== --> <section id="education"> <div class="container fade-in"> <h2>Education</h2> <div class="education-list"> <div class="edu-item"> <div> <div class="degree">MBA in Business Administration</div> <div class="school">IU International University of Applied Sciences · Berlin, Germany</div> </div> <span class="dates">2024 — 2025</span> </div> <div class="edu-item"> <div> <div class="degree">Master of Commerce</div> <div class="school">Bangalore University · Bangalore, India</div> </div> <span class="dates">2017 — 2019</span> </div> <div class="edu-item"> <div> <div class="degree">Bachelor of Business Management</div> <div class="school">Bangalore University · Bangalore, India</div> </div> <span class="dates">2013 — 2016</span> </div> </div> </div> </section> <!-- ===== CERTIFICATIONS + LANGUAGES ===== --> <section class="alt"> <div class="container fade-in"> <div class="two-col"> <div> <h2 style="font-size: 22px;">Certifications</h2> <ul class="list-clean"> <li>Lean Six Sigma Green Belt — AIGPE</li> <li>Microsoft Power BI</li> <li>Google Data Analytics: SQL — Coursera</li> <li>Google Data Analytics: R Programming — Coursera</li> <li>PostgreSQL — Udemy</li> <li>GenAI for Customer Journey Mapping — Microsoft / Coursera</li> </ul> </div> <div> <h2 style="font-size: 22px;">Languages</h2> <ul class="list-clean"> <li><strong>English</strong> — Proficient (C1 / C2)</li> <li><strong>German</strong> — Basic (A2), actively learning (B1 in progress)</li> </ul> </div> </div> </div> </section> <!-- ===== CONTACT ===== --> <section id="contact" class="contact"> <div class="container fade-in"> <h2>Let's Connect</h2> <p class="subtitle"> Currently in Helmstedt, Germany. Open to consumer-insights, customer-experience, and BI roles across Germany, the wider DACH region, and India. </p> <div class="contact-links"> <a href="mailto:deepakr136@gmail.com" class="contact-link"> <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg> deepakr136@gmail.com </a> <a href="tel:+491633658136" class="contact-link"> <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg> +49 163 365 8136 </a> <a href="https://www.linkedin.com/in/deepak-raj-rajendran-572717153" target="_blank" rel="noopener" class="contact-link"> <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M20.5 2h-17A1.5 1.5 0 0 0 2 3.5v17A1.5 1.5 0 0 0 3.5 22h17a1.5 1.5 0 0 0 1.5-1.5v-17A1.5 1.5 0 0 0 20.5 2zM8 19H5v-9h3zM6.5 8.25A1.75 1.75 0 1 1 8.25 6.5 1.75 1.75 0 0 1 6.5 8.25zM19 19h-3v-4.74c0-1.42-.6-1.93-1.38-1.93A1.74 1.74 0 0 0 13 14.19a.66.66 0 0 0 0 .14V19h-3v-9h2.9v1.3a3.11 3.11 0 0 1 2.7-1.4c1.55 0 3.36.86 3.36 3.66z"/></svg> LinkedIn </a> <a href="Deepak_Raj_Rajendran_CV_Germany.pdf" download class="contact-link"> <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7,10 12,15 17,10"/><line x1="12" y1="15" x2="12" y2="3"/></svg> Download CV </a> </div> <p style="color: rgba(255,255,255,0.6); font-size: 13px; margin-top: 16px;"> Indian National · Currently in Helmstedt, Germany · Permanent: Bangalore, India · Open to relocation </p> </div> </section> <footer> &copy; <span id="year"></span> Deepak Raj Rajendran · Built with care, hosted with love. </footer> <script> document.getElementById('year').textContent = new Date().getFullYear(); // Reveal animations const fadeEls = document.querySelectorAll('.fade-in'); const observer = new IntersectionObserver((entries) => { entries.forEach(e => { if (e.isIntersecting) e.target.classList.add('visible'); }); }, { threshold: 0.1, rootMargin: '0px 0px -50px 0px' }); fadeEls.forEach(el => observer.observe(el)); </script> </body> </html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Deepak Raj Rajendran — Consumer Insights & Customer Experience Specialist</title>
+<meta name="description" content="Consumer Insights, Analytics & Business Intelligence Specialist with 5+ years at Amazon and Accenture. Currently based in Germany; open to relocation across DACH and India." />
+<meta name="author" content="Deepak Raj Rajendran" />
+<meta property="og:title" content="Deepak Raj Rajendran — Consumer Insights Specialist" />
+<meta property="og:description" content="5+ years driving customer-centric decisions at Amazon, Accenture, and beyond." />
+<meta property="og:type" content="website" />
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Crect width='100' height='100' rx='20' fill='%231A5276'/%3E%3Ctext x='50' y='62' font-family='Arial' font-size='44' font-weight='700' fill='white' text-anchor='middle'%3ED%3C/text%3E%3C/svg%3E" />
+
+<style>
+:root {
+  --navy: #1A5276;
+  --navy-dark: #143F58;
+  --accent: #C39B3D;
+  --bg: #ffffff;
+  --bg-soft: #F7F9FB;
+  --text: #1F2933;
+  --text-muted: #5C6975;
+  --border: #E4E9ED;
+}
+
+* { box-sizing: border-box; margin: 0; padding: 0; }
+
+html { scroll-behavior: smooth; }
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Helvetica Neue", Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.65;
+  color: var(--text);
+  background: var(--bg);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+a { color: var(--navy); text-decoration: none; transition: color 0.2s ease; }
+a:hover { color: var(--accent); }
+
+/* ===== NAV ===== */
+nav {
+  position: sticky; top: 0; z-index: 100;
+  background: rgba(255,255,255,0.95);
+  backdrop-filter: blur(8px);
+  border-bottom: 1px solid var(--border);
+}
+nav .nav-inner {
+  max-width: 1100px; margin: 0 auto;
+  padding: 16px 24px;
+  display: flex; justify-content: space-between; align-items: center;
+}
+nav .brand { font-weight: 700; color: var(--navy); font-size: 18px; }
+nav ul { list-style: none; display: flex; gap: 28px; }
+nav ul li a {
+  font-size: 14px; font-weight: 500; color: var(--text-muted);
+}
+nav ul li a:hover { color: var(--navy); }
+
+@media (max-width: 720px) { nav ul { display: none; } }
+
+/* ===== HERO ===== */
+.hero {
+  padding: 80px 24px;
+  background: linear-gradient(135deg, #F0F4F7 0%, #FFFFFF 100%);
+}
+.hero-inner {
+  max-width: 1100px; margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1.1fr 0.9fr;
+  gap: 56px;
+  align-items: center;
+}
+@media (max-width: 860px) {
+  .hero-inner { grid-template-columns: 1fr; gap: 32px; text-align: center; }
+  .hero-image { order: -1; max-width: 280px; margin: 0 auto; }
+  .hero .actions { justify-content: center; }
+}
+.hero h1 {
+  font-size: clamp(36px, 5.5vw, 52px);
+  font-weight: 800;
+  color: var(--navy-dark);
+  letter-spacing: -0.02em;
+  line-height: 1.1;
+  margin-bottom: 16px;
+}
+.hero .tagline {
+  font-size: clamp(18px, 2.4vw, 22px);
+  color: var(--navy);
+  font-style: italic;
+  margin-bottom: 24px;
+}
+.hero .summary {
+  font-size: 17px; color: var(--text-muted);
+  margin-bottom: 32px;
+}
+.hero .actions { display: flex; gap: 12px; flex-wrap: wrap; }
+.hero-image {
+  position: relative;
+  width: 100%;
+  max-width: 360px;
+  justify-self: center;
+}
+.hero-image img {
+  width: 100%;
+  aspect-ratio: 1 / 1;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 6px solid white;
+  box-shadow: 0 18px 48px rgba(26, 82, 118, 0.18);
+}
+.hero-image::before {
+  content: '';
+  position: absolute;
+  inset: -8px;
+  border-radius: 50%;
+  border: 2px solid var(--navy);
+  opacity: 0.15;
+}
+.btn {
+  display: inline-flex; align-items: center; gap: 8px;
+  padding: 12px 24px; border-radius: 8px;
+  font-size: 15px; font-weight: 600;
+  border: 1.5px solid transparent; cursor: pointer;
+  transition: all 0.2s ease;
+}
+.btn-primary {
+  background: var(--navy); color: white;
+}
+.btn-primary:hover { background: var(--navy-dark); color: white; transform: translateY(-1px); }
+.btn-secondary {
+  background: white; color: var(--navy); border-color: var(--navy);
+}
+.btn-secondary:hover { background: var(--navy); color: white; }
+
+/* ===== SECTIONS ===== */
+section { padding: 80px 24px; }
+section.alt { background: var(--bg-soft); }
+.container { max-width: 1100px; margin: 0 auto; }
+h2 {
+  font-size: clamp(26px, 3.5vw, 34px);
+  color: var(--navy-dark);
+  font-weight: 700;
+  margin-bottom: 12px;
+  letter-spacing: -0.01em;
+}
+h2::after {
+  content: ''; display: block;
+  width: 48px; height: 3px;
+  background: var(--navy);
+  margin-top: 12px; margin-bottom: 32px;
+  border-radius: 2px;
+}
+h3 { font-size: 19px; font-weight: 700; margin-bottom: 6px; color: var(--text); }
+
+/* ===== ACHIEVEMENTS ===== */
+.achievements {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 20px;
+  margin-top: 24px;
+}
+.achievement-card {
+  background: white;
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  padding: 28px 24px;
+  text-align: center;
+  transition: all 0.25s ease;
+}
+.achievement-card:hover { transform: translateY(-4px); box-shadow: 0 12px 28px rgba(26, 82, 118, 0.08); border-color: var(--navy); }
+.achievement-card .metric {
+  font-size: 42px; font-weight: 800; color: var(--navy);
+  letter-spacing: -0.02em; margin-bottom: 6px;
+}
+.achievement-card .label { font-weight: 600; color: var(--text); margin-bottom: 6px; }
+.achievement-card .desc { font-size: 14px; color: var(--text-muted); line-height: 1.5; }
+
+/* ===== TIMELINE / EXPERIENCE ===== */
+.timeline { position: relative; }
+.timeline::before {
+  content: ''; position: absolute;
+  left: 8px; top: 6px; bottom: 6px;
+  width: 2px; background: var(--border);
+}
+.experience-item {
+  position: relative; padding-left: 36px;
+  padding-bottom: 32px;
+}
+.experience-item::before {
+  content: ''; position: absolute;
+  left: 0; top: 6px;
+  width: 18px; height: 18px;
+  background: var(--navy); border: 3px solid white;
+  border-radius: 50%; box-shadow: 0 0 0 2px var(--navy);
+}
+.experience-header {
+  display: flex; justify-content: space-between; align-items: flex-start;
+  flex-wrap: wrap; gap: 8px;
+  margin-bottom: 4px;
+}
+.experience-role { font-weight: 700; font-size: 18px; color: var(--text); }
+.experience-dates { color: var(--text-muted); font-size: 14px; font-style: italic; }
+.experience-company { color: var(--navy); font-weight: 600; font-size: 15px; margin-bottom: 12px; }
+.experience-bullets { padding-left: 18px; color: var(--text); }
+.experience-bullets li { margin-bottom: 6px; line-height: 1.6; }
+
+/* ===== PROJECTS ===== */
+.projects {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  gap: 24px;
+  margin-top: 16px;
+}
+.project-card {
+  background: white;
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  padding: 28px;
+  transition: all 0.25s ease;
+}
+.project-card:hover { transform: translateY(-3px); box-shadow: 0 14px 32px rgba(26, 82, 118, 0.08); }
+.project-card h3 { color: var(--navy-dark); margin-bottom: 4px; }
+.project-meta { color: var(--text-muted); font-size: 13px; font-style: italic; margin-bottom: 16px; }
+.project-card ul { padding-left: 18px; }
+.project-card li { margin-bottom: 8px; line-height: 1.6; }
+
+/* ===== Recognition badge ===== */
+.recognition-badge {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  margin-top: 18px;
+  padding: 14px 18px;
+  background: linear-gradient(135deg, #FFF8E7 0%, #F9EFD3 100%);
+  border: 1px solid #D4B663;
+  border-left: 4px solid #C39B3D;
+  border-radius: 10px;
+}
+.recognition-badge .badge-icon {
+  flex-shrink: 0;
+  width: 36px; height: 36px;
+  background: linear-gradient(135deg, #D4B663 0%, #C39B3D 100%);
+  border-radius: 50%;
+  display: flex; align-items: center; justify-content: center;
+  color: white;
+  box-shadow: 0 4px 10px rgba(195, 155, 61, 0.3);
+}
+.recognition-badge .badge-text { flex: 1; display: flex; flex-direction: column; gap: 2px; }
+.recognition-badge .badge-text strong { color: var(--navy-dark); font-size: 14px; font-weight: 700; }
+.recognition-badge .badge-text span { color: var(--text-muted); font-size: 12px; }
+.recognition-badge a {
+  font-size: 13px; font-weight: 600; color: var(--navy);
+  white-space: nowrap;
+  text-decoration: none;
+}
+.recognition-badge a:hover { color: var(--accent); text-decoration: underline; }
+
+/* ===== SKILLS ===== */
+.skills-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 18px;
+  margin-top: 16px;
+}
+.skill-block {
+  background: white;
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  padding: 22px 24px;
+}
+.skill-block h4 {
+  font-size: 14px; font-weight: 700;
+  color: var(--navy); text-transform: uppercase;
+  letter-spacing: 0.06em; margin-bottom: 10px;
+}
+.skill-tags { display: flex; flex-wrap: wrap; gap: 7px; }
+.skill-tag {
+  background: var(--bg-soft);
+  border: 1px solid var(--border);
+  color: var(--text);
+  font-size: 13px; padding: 5px 12px;
+  border-radius: 100px;
+}
+
+/* ===== EDUCATION ===== */
+.education-list { display: flex; flex-direction: column; gap: 16px; }
+.edu-item {
+  display: flex; justify-content: space-between;
+  align-items: flex-start; flex-wrap: wrap; gap: 12px;
+  padding: 20px 24px;
+  background: white; border: 1px solid var(--border);
+  border-radius: 10px;
+}
+.edu-item .degree { font-weight: 700; color: var(--text); font-size: 16px; margin-bottom: 4px; }
+.edu-item .school { color: var(--text-muted); font-size: 14px; }
+.edu-item .dates { color: var(--text-muted); font-size: 14px; font-style: italic; }
+
+/* ===== CERTS / LANGS ===== */
+.two-col {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 32px;
+}
+@media (max-width: 720px) { .two-col { grid-template-columns: 1fr; } }
+.list-clean { list-style: none; }
+.list-clean li {
+  padding: 8px 0;
+  border-bottom: 1px solid var(--border);
+  color: var(--text);
+}
+.list-clean li:last-child { border-bottom: none; }
+
+/* ===== CONTACT ===== */
+.contact {
+  background: var(--navy-dark);
+  color: white;
+  padding: 80px 24px;
+  text-align: center;
+}
+.contact h2 { color: white; }
+.contact h2::after { background: var(--accent); }
+.contact .subtitle {
+  color: rgba(255,255,255,0.85);
+  font-size: 18px; max-width: 560px; margin: 0 auto 32px;
+}
+.contact-links {
+  display: flex; flex-wrap: wrap; justify-content: center; gap: 14px;
+  margin-bottom: 24px;
+}
+.contact-link {
+  display: inline-flex; align-items: center; gap: 8px;
+  padding: 12px 20px;
+  background: rgba(255,255,255,0.1);
+  border: 1px solid rgba(255,255,255,0.2);
+  border-radius: 8px;
+  color: white; font-size: 14px; font-weight: 500;
+  transition: all 0.2s ease;
+}
+.contact-link:hover { background: rgba(255,255,255,0.2); color: white; }
+.contact-link svg { flex-shrink: 0; }
+
+footer {
+  background: var(--navy-dark);
+  color: rgba(255,255,255,0.6);
+  text-align: center; font-size: 13px;
+  padding: 24px;
+  border-top: 1px solid rgba(255,255,255,0.1);
+}
+
+/* ===== ANIMATIONS ===== */
+.fade-in {
+  opacity: 0; transform: translateY(16px);
+  transition: opacity 0.6s ease, transform 0.6s ease;
+}
+.fade-in.visible { opacity: 1; transform: translateY(0); }
+
+@media (max-width: 540px) {
+  .hero { padding: 60px 20px 50px; }
+  section { padding: 56px 20px; }
+  h2::after { margin-bottom: 24px; }
+}
+</style>
+</head>
+
+<body>
+
+<!-- ===== NAVIGATION ===== -->
+<nav>
+  <div class="nav-inner">
+    <span class="brand">Deepak Raj Rajendran</span>
+    <ul>
+      <li><a href="#about-me">About</a></li>
+      <li><a href="#experience">Experience</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </div>
+</nav>
+
+<!-- ===== HERO ===== -->
+<section class="hero">
+  <div class="hero-inner fade-in">
+    <div>
+      <h1>Deepak Raj Rajendran</h1>
+      <p class="tagline">Consumer Insights, Analytics &amp; Business Intelligence Specialist</p>
+      <p class="summary">
+        Customer-experience specialist with 5+ years driving go-to-market decisions at Amazon and Accenture across LATAM, Europe, and Asia. I turn customer signals into action — improving delivery performance, conversion, and ad revenue at scale.
+      </p>
+      <div class="actions">
+        <a href="#contact" class="btn btn-primary">Get in Touch</a>
+        <a href="Deepak_Raj_Rajendran_CV_Germany.pdf" download class="btn btn-secondary">Download CV</a>
+      </div>
+    </div>
+    <div class="hero-image">
+      <img src="headshot.jpg" alt="Deepak Raj Rajendran" />
+    </div>
+  </div>
+</section>
+
+<!-- ===== ABOUT ME ===== -->
+<section id="about-me" class="alt">
+  <div class="container fade-in" style="display: grid; grid-template-columns: 0.85fr 1.15fr; gap: 48px; align-items: center;">
+    <div class="about-photo" style="position: relative;">
+      <img src="portrait.jpg" alt="Deepak Raj Rajendran" style="width: 100%; max-width: 380px; border-radius: 14px; box-shadow: 0 20px 50px rgba(0,0,0,0.12); display: block;" />
+    </div>
+    <div>
+      <h2>About Me</h2>
+      <p style="font-size: 17px; color: var(--text); margin-bottom: 18px;">
+        Originally from Bangalore, currently in Helmstedt, Germany — and somewhere between MBA classrooms in Berlin and warehouse floors in Latin America, I figured out that what I do best is take messy customer signals and turn them into decisions teams actually act on.
+      </p>
+      <p style="font-size: 17px; color: var(--text); margin-bottom: 18px;">
+        Five years at Amazon and Accenture taught me how to translate VoC, NPS, and behavioural data into pricing, delivery, and product changes that move real numbers. An MBA from IU International &amp; LSBU sharpened the commercial lens. A&nbsp;part-time gig running shifts at a German hospitality group keeps me close to the customer in a way no dashboard ever could.
+      </p>
+      <p style="font-size: 17px; color: var(--text);">
+        Open to insights, customer experience, and BI roles across India and the DACH region — wherever a team needs someone who treats the customer's voice like the only voice that matters.
+      </p>
+    </div>
+  </div>
+</section>
+
+<style>
+@media (max-width: 860px) {
+  #about-me .container {
+    grid-template-columns: 1fr !important;
+    text-align: center;
+  }
+  #about-me .about-photo img {
+    margin: 0 auto;
+  }
+}
+</style>
+
+<!-- ===== ABOUT / KEY ACHIEVEMENTS ===== -->
+<section id="about">
+  <div class="container fade-in">
+    <h2>Impact Snapshot</h2>
+    <p style="color: var(--text-muted); max-width: 720px; margin-bottom: 0;">
+      Three numbers I'm proud of, drawn from real programs at Amazon — built with cross-functional teams across product, marketing, logistics, and ops.
+    </p>
+    <div class="achievements">
+      <div class="achievement-card">
+        <div class="metric">+8%</div>
+        <div class="label">Ad Revenue Growth</div>
+        <div class="desc">Facebook ad revenue lifted by translating customer-journey insights into media-mix recommendations.</div>
+      </div>
+      <div class="achievement-card">
+        <div class="metric">+20%</div>
+        <div class="label">On-Time Delivery</div>
+        <div class="desc">Cross-market benchmarking study that drove operational priorities across Latin American teams.</div>
+      </div>
+      <div class="achievement-card">
+        <div class="metric">+15%</div>
+        <div class="label">Transaction Efficiency</div>
+        <div class="desc">Identified checkout friction on low-end devices and partnered with product to optimise UX.</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== EXPERIENCE ===== -->
+<section id="experience" class="alt">
+  <div class="container fade-in">
+    <h2>Experience</h2>
+    <div class="timeline">
+      <div class="experience-item">
+        <div class="experience-header">
+          <span class="experience-role">Team / Shift Manager</span>
+          <span class="experience-dates">06/2025 — Present</span>
+        </div>
+        <div class="experience-company">Hockelmann Systemgastronomiebetriebe GmbH · Berlin, Germany</div>
+        <ul class="experience-bullets">
+          <li>Lead shift operations during peak hours, maintaining compliance with brand standards, food-safety regulations, and service-quality expectations.</li>
+          <li>Resolve customer escalations on the floor in real time, sustaining positive guest experience.</li>
+          <li>Track service-speed, order-accuracy, and staff-productivity KPIs in Qualtrics XM to identify operational bottlenecks.</li>
+        </ul>
+      </div>
+
+      <div class="experience-item">
+        <div class="experience-header">
+          <span class="experience-role">Senior Capabilities Associate — Customer Experience &amp; Business Trends</span>
+          <span class="experience-dates">05/2021 — 03/2024</span>
+        </div>
+        <div class="experience-company">Amazon · Bangalore, India</div>
+        <ul class="experience-bullets">
+          <li>Led cross-regional customer and shopper journey initiatives across Latin America, France, and Japan.</li>
+          <li>Owned Voice-of-Customer (VoC), CSAT, and NPS frameworks used in monthly leadership reviews across three regions.</li>
+          <li>Translated customer feedback and behavioural data into pricing, delivery, and payment recommendations adopted by product, marketing, and logistics teams.</li>
+          <li>Delivered insights that improved delivery performance and transaction efficiency by up to 20%.</li>
+          <li><strong>Recognised with Amazon's LP Champion Award (Q1 2024)</strong> for embodying <em>Bias for Action</em> and <em>Deliver Results</em> on the APAY Latency study.</li>
+        </ul>
+      </div>
+
+      <div class="experience-item">
+        <div class="experience-header">
+          <span class="experience-role">Process Associate — Customer Experience &amp; Advertising Insights</span>
+          <span class="experience-dates">09/2019 — 05/2021</span>
+        </div>
+        <div class="experience-company">Accenture · Bangalore, India</div>
+        <ul class="experience-bullets">
+          <li>Delivered customer and campaign performance insights for a global technology client.</li>
+          <li>Conducted audience segmentation, persona analysis, and channel-performance evaluation to inform go-to-market strategy.</li>
+          <li>Built automated SQL and Microsoft Power BI dashboards used by global marketing and analytics teams.</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== PROJECTS ===== -->
+<section id="projects">
+  <div class="container fade-in">
+    <h2>Selected Projects</h2>
+    <div class="projects">
+      <div class="project-card">
+        <h3>Amazon Pay — Checkout Optimisation (APAY Latency Study)</h3>
+        <div class="project-meta">Amazon · 2024 · Cross-functional with Product &amp; Tech</div>
+        <ul>
+          <li>Identified checkout friction on low-end devices through customer-behaviour analysis.</li>
+          <li>Audited <strong>759 transactions in 3 days</strong> to meet stakeholder deadlines under tight timelines and data constraints.</li>
+          <li>Partnered with product and tech teams to optimise UX and performance.</li>
+          <li><strong>Result:</strong> 15% improvement in transaction efficiency, increased checkout conversion, lifted overall customer satisfaction.</li>
+        </ul>
+        <div class="recognition-badge">
+          <div class="badge-icon">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M12 1l2.39 4.84L20 7l-4 3.9.94 5.5L12 13.77 7.06 16.4 8 10.9 4 7l5.61-1.16L12 1zm0 4.83L10.97 7.9l-2.3.48 1.66 1.62-.39 2.27L12 11.2l2.06 1.07-.39-2.27 1.66-1.62-2.3-.48L12 5.83zM3 19h18v2H3z"/></svg>
+          </div>
+          <div class="badge-text">
+            <strong>Amazon LP Champion Award · Q1 2024</strong>
+            <span>For 'Bias for Action' &amp; 'Deliver Results'</span>
+          </div>
+          <a href="LP_Champion_Certificate.pdf" target="_blank" rel="noopener">View →</a>
+        </div>
+      </div>
+
+      <div class="project-card">
+        <h3>Cross-Market Delivery Programme</h3>
+        <div class="project-meta">Mexico · 2022 · LATAM Operations</div>
+        <ul>
+          <li>Led delivery-performance benchmarking across Latin American markets to identify gaps impacting customer satisfaction.</li>
+          <li>Translated insights into actionable operational priorities for local teams.</li>
+          <li><strong>Result:</strong> ~20% improvement in on-time delivery within one quarter.</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== SKILLS ===== -->
+<section id="skills" class="alt">
+  <div class="container fade-in">
+    <h2>Skills &amp; Tools</h2>
+    <div class="skills-grid">
+      <div class="skill-block">
+        <h4>Analytics &amp; Reporting</h4>
+        <div class="skill-tags">
+          <span class="skill-tag">SQL</span>
+          <span class="skill-tag">Power BI</span>
+          <span class="skill-tag">Amazon QuickSight</span>
+          <span class="skill-tag">R</span>
+          <span class="skill-tag">Excel</span>
+        </div>
+      </div>
+      <div class="skill-block">
+        <h4>Customer Insights</h4>
+        <div class="skill-tags">
+          <span class="skill-tag">Voice of Customer</span>
+          <span class="skill-tag">NPS</span>
+          <span class="skill-tag">CSAT</span>
+          <span class="skill-tag">CES</span>
+          <span class="skill-tag">A/B Testing</span>
+          <span class="skill-tag">Survey Design</span>
+          <span class="skill-tag">Customer Journey Mapping</span>
+        </div>
+      </div>
+      <div class="skill-block">
+        <h4>CRM &amp; CX Tools</h4>
+        <div class="skill-tags">
+          <span class="skill-tag">Salesforce</span>
+          <span class="skill-tag">Qualtrics XM</span>
+        </div>
+      </div>
+      <div class="skill-block">
+        <h4>Process &amp; Leadership</h4>
+        <div class="skill-tags">
+          <span class="skill-tag">Lean Six Sigma</span>
+          <span class="skill-tag">Stakeholder Management</span>
+          <span class="skill-tag">Cross-functional Leadership</span>
+          <span class="skill-tag">Team Coaching</span>
+          <span class="skill-tag">Storytelling</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== EDUCATION ===== -->
+<section id="education">
+  <div class="container fade-in">
+    <h2>Education</h2>
+    <div class="education-list">
+      <div class="edu-item">
+        <div>
+          <div class="degree">MBA in Business Administration</div>
+          <div class="school">IU International University of Applied Sciences · Berlin, Germany</div>
+        </div>
+        <span class="dates">2024 — 2025</span>
+      </div>
+      <div class="edu-item">
+        <div>
+          <div class="degree">Master of Commerce</div>
+          <div class="school">Bangalore University · Bangalore, India</div>
+        </div>
+        <span class="dates">2017 — 2019</span>
+      </div>
+      <div class="edu-item">
+        <div>
+          <div class="degree">Bachelor of Business Management</div>
+          <div class="school">Bangalore University · Bangalore, India</div>
+        </div>
+        <span class="dates">2013 — 2016</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== CERTIFICATIONS + LANGUAGES ===== -->
+<section class="alt">
+  <div class="container fade-in">
+    <div class="two-col">
+      <div>
+        <h2 style="font-size: 22px;">Certifications</h2>
+        <ul class="list-clean">
+          <li>Lean Six Sigma Green Belt — AIGPE</li>
+          <li>Microsoft Power BI</li>
+          <li>Google Data Analytics: SQL — Coursera</li>
+          <li>Google Data Analytics: R Programming — Coursera</li>
+          <li>PostgreSQL — Udemy</li>
+          <li>GenAI for Customer Journey Mapping — Microsoft / Coursera</li>
+        </ul>
+      </div>
+      <div>
+        <h2 style="font-size: 22px;">Languages</h2>
+        <ul class="list-clean">
+          <li><strong>English</strong> — Proficient (C1 / C2)</li>
+          <li><strong>German</strong> — Basic (A2), actively learning (B1 in progress)</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== CONTACT ===== -->
+<section id="contact" class="contact">
+  <div class="container fade-in">
+    <h2>Let's Connect</h2>
+    <p class="subtitle">
+      Currently in Helmstedt, Germany. Open to consumer-insights, customer-experience, and BI roles across Germany, the wider DACH region, and India.
+    </p>
+    <div class="contact-links">
+      <a href="mailto:deepakr136@gmail.com" class="contact-link">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+        deepakr136@gmail.com
+      </a>
+      <a href="tel:+491633658136" class="contact-link">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+        +49 163 365 8136
+      </a>
+      <a href="https://www.linkedin.com/in/deepak-raj-rajendran-572717153" target="_blank" rel="noopener" class="contact-link">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M20.5 2h-17A1.5 1.5 0 0 0 2 3.5v17A1.5 1.5 0 0 0 3.5 22h17a1.5 1.5 0 0 0 1.5-1.5v-17A1.5 1.5 0 0 0 20.5 2zM8 19H5v-9h3zM6.5 8.25A1.75 1.75 0 1 1 8.25 6.5 1.75 1.75 0 0 1 6.5 8.25zM19 19h-3v-4.74c0-1.42-.6-1.93-1.38-1.93A1.74 1.74 0 0 0 13 14.19a.66.66 0 0 0 0 .14V19h-3v-9h2.9v1.3a3.11 3.11 0 0 1 2.7-1.4c1.55 0 3.36.86 3.36 3.66z"/></svg>
+        LinkedIn
+      </a>
+      <a href="Deepak_Raj_Rajendran_CV_Germany.pdf" download class="contact-link">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7,10 12,15 17,10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>
+        Download CV
+      </a>
+    </div>
+    <p style="color: rgba(255,255,255,0.6); font-size: 13px; margin-top: 16px;">
+      Indian National · Currently in Helmstedt, Germany · Permanent: Bangalore, India · Open to relocation
+    </p>
+  </div>
+</section>
+
+<footer>
+  &copy; <span id="year"></span> Deepak Raj Rajendran · Built with care, hosted with love.
+</footer>
+
+<script>
+document.getElementById('year').textContent = new Date().getFullYear();
+
+// Reveal animations
+const fadeEls = document.querySelectorAll('.fade-in');
+const observer = new IntersectionObserver((entries) => {
+  entries.forEach(e => { if (e.isIntersecting) e.target.classList.add('visible'); });
+}, { threshold: 0.1, rootMargin: '0px 0px -50px 0px' });
+fadeEls.forEach(el => observer.observe(el));
+</script>
+
+</body>
+</html>
